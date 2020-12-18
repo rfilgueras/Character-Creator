@@ -1,0 +1,10 @@
+C:\Users\rhonafilgueras\source\repos\CharacterCreator\CharacterCreator\bin\Debug\CharacterCreator.exe.config
+C:\Users\rhonafilgueras\source\repos\CharacterCreator\CharacterCreator\bin\Debug\CharacterCreator.exe
+C:\Users\rhonafilgueras\source\repos\CharacterCreator\CharacterCreator\bin\Debug\CharacterCreator.pdb
+C:\Users\rhonafilgueras\source\repos\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.csprojAssemblyReference.cache
+C:\Users\rhonafilgueras\source\repos\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.Form1.resources
+C:\Users\rhonafilgueras\source\repos\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.Properties.Resources.resources
+C:\Users\rhonafilgueras\source\repos\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.csproj.GenerateResource.cache
+C:\Users\rhonafilgueras\source\repos\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.csproj.CoreCompileInputs.cache
+C:\Users\rhonafilgueras\source\repos\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.exe
+C:\Users\rhonafilgueras\source\repos\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.pdb

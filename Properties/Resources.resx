@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bg9@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg9@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheels7@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheels7@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head5@4x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head5@4x1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food4@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food4@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head10@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head10@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg1@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg1@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat1@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat1@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head6@4x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head6@4x1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultArm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultArm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheels1@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheels1@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg8@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg8@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat7@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat7@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head4@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head4@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat3@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat3@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food6@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food6@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food9@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food9@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheels9@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheels9@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm3@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm3@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg6@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg6@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head2@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head2@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheels8@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheels8@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultBody2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultBody2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm4@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm4@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head11@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head11@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheels5@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheels5@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg10@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg10@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm10@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm10@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food2@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food2@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food1@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food1@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm7@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm7@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head1@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head1@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head7@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head7@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food8@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food8@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultWheels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultWheels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm2@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm2@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat4@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat4@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food7@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food7@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg3@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg3@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg4@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg4@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food3@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food3@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head9@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head9@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm6@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm6@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm9@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm9@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat10@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat10@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head6@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head6@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat10@4x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat10@4x1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main_body@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main_body@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head3@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head3@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food5@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food5@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat5@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat5@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheels3@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheels3@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultHat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultHat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg2@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg2@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat11@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat11@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultbody" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultbody.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheels10@4x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheels10@4x1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food10@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food10@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheels10@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheels10@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head8@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head8@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg7@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg7@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheels4@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheels4@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg10@4x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg10@4x1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheels2@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheels2@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm1@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm1@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultHead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultHead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultFood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultFood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foodbotmini_CharacterCreator1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foodbotmini_CharacterCreator1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food11@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food11@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat6@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat6@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head5@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head5@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheels6@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheels6@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head3@4x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head3@4x1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat2@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat2@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="default1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\default1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat9@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat9@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foodbotmini_CharacterCreator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foodbotmini_CharacterCreator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg5@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg5@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
