@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EF472021-297D-42B4-B51D-E971AB9C5D48}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CharacterCreator</RootNamespace>
+    <AssemblyName>CharacterCreator</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_body%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm1%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head1%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg1%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg2%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg3%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg4%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg6%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg5%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg7%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg8%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg9%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg10%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg10%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheels1%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat1%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheels2%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheels3%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheels4%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheels5%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheels6%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheels7%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheels8%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheels9%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheels10%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food1%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food2%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food3%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food4%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food5%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food6%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food7%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food8%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food9%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food10%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food11%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head2%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head3%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head5%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head6%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head7%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head8%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head4%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat2%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head3%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat3%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat4%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head5%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat5%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat7%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat9%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat10%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm2%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm3%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm4%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm6%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm9%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm10%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm7%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat11%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head6%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat6%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head10%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat10%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defaultbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defaultbody.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defaultWheels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defaultBody2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defaultArm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defaultFood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defaultHead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defaultHat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheels10%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head9%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head11%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foodbotmini_CharacterCreator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foodbotmini_CharacterCreator1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arm6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food10.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
